@@ -62,5 +62,3 @@ function OpenMenuPound()
         end)
     end
 end
-
-RegisterNetEvent("dpr_core:OpenPoundMenu") AddEventHandler("dpr_core:OpenPoundMenu", function() OpenMenuPound() end)
