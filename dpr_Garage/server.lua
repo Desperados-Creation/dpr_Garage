@@ -89,7 +89,7 @@ ESX.RegisterServerCallback('dpr_core:verifsous', function(source, cb)
 	end
 end)
 
-ESX.RegisterServerCallback('dpr_core:payechacal', function(source, cb)
+ESX.RegisterServerCallback('dpr_core:achat', function(source, cb)
     local _src = source
 	local xPlayer = ESX.GetPlayerFromId(source)
 
