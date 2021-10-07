@@ -36,7 +36,7 @@ function OpenMenuPound()
         
                     RageUI.Button(nomvehicletexte.." | "..plaque, nil, {RightLabel = "~y~→"}, true, {
                         onSelected = function() 
-                            ESX.TriggerServerCallback('dpr_core:payechacal', function(suffisantsous)
+                            ESX.TriggerServerCallback('dpr_core:achat', function(suffisantsous)
                                 if suffisantsous then
                                     SpawnVehicle(modelevehiclespawn, plaque)
                                     RageUI.CloseAll()
