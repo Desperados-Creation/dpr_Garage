@@ -80,15 +80,6 @@ ESX.RegisterServerCallback('dpr_core:returnVehicle', function (source, cb, vehic
 	end)
 end)
 
-ESX.RegisterServerCallback('dpr_core:verifsous', function(source, cb)
-	local xPlayer = ESX.GetPlayerFromId(source)
-	if xPlayer.getMoney() >= 500 then
-		cb(true)
-	else
-		cb(false)
-	end
-end)
-
 ESX.RegisterServerCallback('dpr_core:achat', function(source, cb)
     local _src = source
 	local xPlayer = ESX.GetPlayerFromId(source)
